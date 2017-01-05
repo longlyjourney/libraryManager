@@ -3,55 +3,55 @@
 #include <conio.h>
 #include "library.h"
 #include "lirary.c"
-//ÏÔÊ¾Î¬»¤²Ëµ¥
+//æ˜¾ç¤ºç»´æŠ¤èœå•
 void display_maintenance_menu()
 {
 	system("cls");
-	puts("\n\n\t\t<<Î¬»¤×Ó²Ëµ¥(DEFEND MUNU)>>\n\n");
-	puts("\t1 --×¢²áÓÃ»§(ENROLL USER)");
-	puts("\t2 --×¢²áÍ¼Êé(ENROLL BOOK)");
-	puts("\t3 --×¢ÏúÓÃ»§(CANCEL USER)");
-	puts("\t4 --×¢ÏúÍ¼Êé(CANCEL BOOK)");
-	puts("\t5 --°æ±¾ĞÅÏ¢(EDITION INFORMATION)");
-	puts("\t0 --·µ»Ø×Ó²Ëµ¥(RETURN MENU)");
+	puts("\n\n\t\t<<ç»´æŠ¤å­èœå•(DEFEND MUNU)>>\n\n");
+	puts("\t1 --æ³¨å†Œç”¨æˆ·(ENROLL USER)");
+	puts("\t2 --æ³¨å†Œå›¾ä¹¦(ENROLL BOOK)");
+	puts("\t3 --æ³¨é”€ç”¨æˆ·(CANCEL USER)");
+	puts("\t4 --æ³¨é”€å›¾ä¹¦(CANCEL BOOK)");
+	puts("\t5 --ç‰ˆæœ¬ä¿¡æ¯(EDITION INFORMATION)");
+	puts("\t0 --è¿”å›å­èœå•(RETURN MENU)");
 }
 
-//ĞÅÏ¢²éÕÒ²Ëµ¥
+//ä¿¡æ¯æŸ¥æ‰¾èœå•
 void display_info_munu()
 {
 	system("cls");
-	puts("\n\n\t\t<<ĞÅÏ¢²éÕÒ×Ó²Ëµ¥(FIND INFORMATION OF THE MEMU)>>\n\n");
-	puts("\t1 --²éÕÒÓÃ»§ĞÅÏ¢(FIND USER'S INFORMATION)");
-	puts("\t2 --²éÕÒÍ¼ÊéĞÅÏ¢(FIND BOOK'S INFORMATION)");
-	puts("\t3 --ä¯ÀÀÓÃ»§ĞÅÏ¢(BROWSE USER'S INFORMATION)");
-	puts("\t4 --ä¯ÀÀÍ¼ÊéĞÅÏ¢(BROWSE BOOK'S INFORMATION)");
-	puts("\t0 --·µ»ØÖ÷²Ëµ¥(RETURN MENU)");
+	puts("\n\n\t\t<<ä¿¡æ¯æŸ¥æ‰¾å­èœå•(FIND INFORMATION OF THE MEMU)>>\n\n");
+	puts("\t1 --æŸ¥æ‰¾ç”¨æˆ·ä¿¡æ¯(FIND USER'S INFORMATION)");
+	puts("\t2 --æŸ¥æ‰¾å›¾ä¹¦ä¿¡æ¯(FIND BOOK'S INFORMATION)");
+	puts("\t3 --æµè§ˆç”¨æˆ·ä¿¡æ¯(BROWSE USER'S INFORMATION)");
+	puts("\t4 --æµè§ˆå›¾ä¹¦ä¿¡æ¯(BROWSE BOOK'S INFORMATION)");
+	puts("\t0 --è¿”å›ä¸»èœå•(RETURN MENU)");
 
 }
-//Ö÷²Ëµ¥
+//ä¸»èœå•
 void display_mainmenu()
 {
 	system("cls");
-	puts("\n\t\t         ¿ª·â´óÑ§Í¼Êé¹ÜÀíÏµÍ³                 \n\n");
+	puts("\n\t\t         XXå¤§å­¦å›¾ä¹¦ç®¡ç†ç³»ç»Ÿ                 \n\n");
 	puts("\t\t\t         ====================\n\n");
-	puts("\t             1 --½èÊé(BORROW BOOK)");
-	puts("\t             2 --»¹Êé(RETURN BOOK)");
-	puts("\t             3 --¹ÜÀí(MANAGE)");
-	puts("\t             4 --²éÕÒ(FIND)");
-	puts("\t             0 --ÍË³ö(EXIT)");
+	puts("\t             1 --å€Ÿä¹¦(BORROW BOOK)");
+	puts("\t             2 --è¿˜ä¹¦(RETURN BOOK)");
+	puts("\t             3 --ç®¡ç†(MANAGE)");
+	puts("\t             4 --æŸ¥æ‰¾(FIND)");
+	puts("\t             0 --é€€å‡º(EXIT)");
 	puts("\n");
-	puts("\t     --ÇëÑ¡Ôñ(CHOOSE):           ");
+	puts("\t     --è¯·é€‰æ‹©(CHOOSE):           ");
 }
-//³ÌĞò½áÊø
+//ç¨‹åºç»“æŸ
 void display_end()
 {
 	system("cls");
-	puts("\n\n\n\n\n\n\tĞ»Ğ»Ê¹ÓÃ£¬»¶Ó­ÏÂ´Î¹âÁÙ!\n");
+	puts("\n\n\n\n\n\n\tè°¢è°¢ä½¿ç”¨ï¼Œæ¬¢è¿ä¸‹æ¬¡å…‰ä¸´!\n");
 }
 
 
 
-//Ö÷³ÌĞò
+//ä¸»ç¨‹åº
 int main(void)
 {
 	int quit=0;
